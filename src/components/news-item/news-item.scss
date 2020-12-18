@@ -1,0 +1,45 @@
+@media (max-width: 767px) {
+  .news-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+
+.news-item {
+  display: flex;
+  margin-top: 10px;
+
+
+  .news-item-image {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+
+  }
+    h3 {
+      padding-top: 10px;
+    }
+}
+
+li {
+  list-style: none;
+  border-bottom: darkgrey solid 1px;
+}
+
+.collapsible {
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+
+}
+.content{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2ms ease-out;
+}
+
+.active, .collapsible:hover {
+
+}
