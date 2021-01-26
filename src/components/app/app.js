@@ -9,45 +9,7 @@ import ErrorBoundary from "../error-boundary/error-boundary";
 
 
 const _baseUrl = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=6de3aaf1f3f0475787eec3cc7f5901c6';
-// class App extends Component {
-//
-//   state = {
-//     data: [],
-//     isLoading: true,
-//   };
-//
-//   async fetchData (url) {
-//     const response = await fetch(url);
-//     const data = await response.json();
-//
-//
-//     this.setState({ data: data.articles });
-//     console.log(this.state.data)
-//
-//
-//   }
-//
-//   componentDidMount() {
-//
-//     this.fetchData(_baseUrl);
-//
-//   }
-//
-//
-//   render () {
-//     const data = this.state.data;
-//
-//     return (
-//         <div className="app container">
-//           <NavBar/>
-//           <NewsPage data={data}/>
-//         </div>
-//     );
-//   }
-//
-// }
-//
-// export default App;
+
 const App = () => {
 
     //хук состояния для массива данных
