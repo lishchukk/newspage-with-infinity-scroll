@@ -31,7 +31,6 @@ const NewsItem = ({data}) => {
 
         return (
             <li key={index} >
-                {/*<div className='news-item' onClick={() => setToggleNews(!newsToggle)}>*/}
                 <div className='news-item collapsible' onClick={() => showContent()}>
 
                     <div><img src={urlToImage} alt="image_" className='news-item-image'/></div>
@@ -40,7 +39,6 @@ const NewsItem = ({data}) => {
 
                         <h3>{title} </h3>
                         <p>{description}</p>
-                        {/*<div style={{display: (newsToggle ? 'block' : 'none')}} > {content} </div>*/}
 
                         <p><i> Author  : </i> {author}   </p>
                         <p>Published at: {publishedAt}</p>
